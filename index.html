@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Website Name</h1>
-    <p>Created by Aaron Lam</p>
-    <p>saldjasjlkswoauudskjnasmn rabndom text boiiii!</p>
-    <script src="index.js"></script>
+    <h1>Hello!</h1>
+    <button onclick="hello()">Click Here</button>
+    <script>
+      function hello() {
+        if (document.querySelector("h1").innerHTML === "Hello!") {
+          document.querySelector("h1").innerHTML = "Goodbye!";
+        } else {
+          document.querySelector("h1").innerHTML = "Hello!";
+        }
+      }
+    </script>
   </body>
 </html>

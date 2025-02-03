@@ -1,0 +1,10 @@
+body {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+}
+
+p {
+  font-style: italic;
+  font-size: small;
+}

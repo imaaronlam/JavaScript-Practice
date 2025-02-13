@@ -1,0 +1,46 @@
+#title {
+  text-align: center;
+  font-size: 3em;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.box {
+  text-align: center;
+}
+
+.addMoney {
+  font-size: 1em;
+  background-color: hsl(208, 61%, 60%);
+  border-radius: 10px;
+  color: white;
+  border-color: lightgrey;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in;
+  transition: transform 0.5s;
+}
+
+.addMoney:hover {
+  background-color: hsl(230, 77%, 19%);
+  transform: scale(1.15);
+}
+
+#spin {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: hsl(208, 61%, 60%);
+  color: white;
+  border-color: lightgrey;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in;
+  transition: transform 0.5s;
+}
+
+#spin:hover {
+  background-color: hsl(230, 77%, 19%);
+  transform: scale(1.3);
+}
